@@ -41,6 +41,7 @@ main_old.py
 *.log
 logs/
 output.txt
+worklog.log*
 
 # Системные файлы
 .DS_Store

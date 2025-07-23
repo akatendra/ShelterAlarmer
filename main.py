@@ -235,7 +235,7 @@ async def init_bot():
 async def heartbeat(bot, chat_id):
     while True:
         now = datetime.now().strftime("%d-%m-%Y | %H:%M:%S")
-        msg = f" {now} — Бот на службе"
+        msg = f"🟢 {now} — Бот на службе"
         await bot.send_message(chat_id, msg)
         await asyncio.sleep(3600)  # раз в час
 
