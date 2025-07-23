@@ -1,0 +1,976 @@
+[2025-07-12 00:00:11] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: у нас всюди транзит, 4.5.0
+[2025-07-12 01:58:21] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 🟢 Херсонська область
+Відбій повітряної тривоги
+
+01:57
+[2025-07-12 01:58:21] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 🟢 Миколаївська область
+Відбій повітряної тривоги
+
+01:57
+[2025-07-12 01:59:21] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: Одесята трохи тривога буде, бо 3 балалайки транзит по кордону
+[2025-07-12 02:24:23] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 🟢 Одеська область
+Відбій повітряної тривоги
+
+02:23
+[2025-07-12 02:24:23] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: всьо, йди мить попу та відпочивати💋
+[2025-07-12 07:44:52] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 🚨 Одеська область
+Повітряна тривога
+
+07:44
+[2025-07-12 07:47:53] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 📡 На Одещині фіксується ворожий розвіддрон
+
+Біля Затокм літає
+[2025-07-12 08:28:57] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 🟢 Одеська область
+Відбій повітряної тривоги
+
+08:28
+[2025-07-12 08:53:00] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: знаєш шо?
+[2025-07-12 08:55:00] __main__ | INFO | handler: 80 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: хотів побажати тобі гарного дня💋
+[2025-07-12 11:45:59] __main__ | INFO | <module>: 101 | Program terminated by user
+[2025-07-12 11:45:59] __main__ | INFO | <module>: 105 | Program finished
+[2025-07-12 11:46:30] __main__ | INFO | <module>: 138 | Program starting...
+[2025-07-12 11:46:30] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:46:30] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:46:30] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:46:30] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:46:31] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:46:31] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:46:31] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 11:46:31] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 11:46:31] __main__ | INFO | list_groups: 70 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 11:46:31] __main__ | INFO | monitor_group: 90 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 11:47:04] __main__ | INFO | <module>: 145 | Program terminated by user
+[2025-07-12 11:47:04] __main__ | INFO | <module>: 149 | Program finished
+[2025-07-12 11:48:57] __main__ | INFO | <module>: 138 | Program starting...
+[2025-07-12 11:48:57] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:48:57] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:48:57] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:48:58] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:48:58] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:48:58] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:48:58] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 11:48:58] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 11:48:58] __main__ | INFO | list_groups: 70 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 11:48:58] __main__ | INFO | monitor_group: 90 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 11:49:36] __main__ | INFO | <module>: 145 | Program terminated by user
+[2025-07-12 11:49:36] __main__ | INFO | <module>: 149 | Program finished
+[2025-07-12 11:50:57] __main__ | INFO | <module>: 138 | Program starting...
+[2025-07-12 11:50:57] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:50:57] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:50:57] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:50:57] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:50:57] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:50:57] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:50:58] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 11:50:58] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 11:50:58] __main__ | INFO | list_groups: 70 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 11:50:58] __main__ | INFO | monitor_group: 90 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 11:54:12] __main__ | INFO | <module>: 145 | Program terminated by user
+[2025-07-12 11:54:12] __main__ | INFO | <module>: 149 | Program finished
+[2025-07-12 11:54:14] __main__ | INFO | <module>: 138 | Program starting...
+[2025-07-12 11:54:14] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:54:14] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:54:14] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:54:15] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:54:15] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:54:15] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:54:15] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 11:54:15] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 11:54:15] __main__ | INFO | list_groups: 70 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 11:54:15] __main__ | INFO | monitor_group: 90 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 11:55:22] __main__ | INFO | <module>: 145 | Program terminated by user
+[2025-07-12 11:55:22] __main__ | INFO | <module>: 149 | Program finished
+[2025-07-12 11:56:07] __main__ | INFO | <module>: 138 | Program starting...
+[2025-07-12 11:56:07] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:56:07] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:56:07] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:56:07] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:56:07] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:56:07] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:56:07] __main__ | ERROR | <module>: 147 | Unexpected error: 'async for' requires an object with __aiter__ method, got TotalList
+[2025-07-12 11:56:07] __main__ | INFO | <module>: 149 | Program finished
+[2025-07-12 11:57:32] __main__ | INFO | <module>: 141 | Program starting...
+[2025-07-12 11:57:32] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:57:32] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:57:32] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:57:33] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:57:33] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:57:33] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:57:33] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 11:57:33] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 11:57:33] __main__ | INFO | list_groups: 70 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 11:57:33] __main__ | ERROR | <module>: 150 | Unexpected error: 'async for' requires an object with __aiter__ method, got TotalList
+[2025-07-12 11:57:33] __main__ | INFO | <module>: 152 | Program finished
+[2025-07-12 11:58:37] __main__ | INFO | <module>: 141 | Program starting...
+[2025-07-12 11:58:37] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:58:37] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:58:37] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:58:38] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:58:38] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:58:38] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:58:38] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 11:58:38] __main__ | INFO | list_groups: 70 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 11:58:38] __main__ | INFO | list_groups: 70 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 11:58:39] __main__ | INFO | monitor_group: 93 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 11:59:13] __main__ | INFO | <module>: 148 | Program terminated by user
+[2025-07-12 11:59:13] __main__ | INFO | <module>: 152 | Program finished
+[2025-07-12 11:59:15] __main__ | INFO | <module>: 146 | Program starting...
+[2025-07-12 11:59:15] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 11:59:15] __main__ | INFO | init_client: 28 | Creating Telegram client...
+[2025-07-12 11:59:15] __main__ | INFO | init_client: 31 | Connecting to Telegram...
+[2025-07-12 11:59:15] __main__ | INFO | init_client: 50 | Authorization successful ✅
+[2025-07-12 11:59:15] __main__ | INFO | init_client: 52 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 67 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 72 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 72 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 72 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 77 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 77 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 77 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 77 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 11:59:15] __main__ | INFO | list_groups: 77 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 11:59:15] __main__ | INFO | monitor_group: 98 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:02:15] __main__ | INFO | handler: 93 | #########################
+[2025-07-12 12:02:15] __main__ | INFO | handler: 94 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 🚨 Херсонська область
+Повітряна тривога
+
+12:01
+[2025-07-12 12:09:11] __main__ | INFO | <module>: 153 | Program terminated by user
+[2025-07-12 12:09:11] __main__ | INFO | <module>: 157 | Program finished
+[2025-07-12 12:09:13] __main__ | INFO | <module>: 152 | Program starting...
+[2025-07-12 12:09:13] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:09:13] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:09:13] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:09:14] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:09:14] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 71 | ############################################################
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 82 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 82 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 82 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 82 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 82 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:09:14] __main__ | INFO | list_groups: 84 | ############################################################
+[2025-07-12 12:09:14] __main__ | INFO | monitor_group: 104 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:09:32] __main__ | INFO | <module>: 159 | Program terminated by user
+[2025-07-12 12:09:32] __main__ | INFO | <module>: 163 | Program finished
+[2025-07-12 12:09:34] __main__ | INFO | <module>: 152 | Program starting...
+[2025-07-12 12:09:34] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:09:34] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:09:34] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:09:35] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:09:35] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 71 | ############################################################
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 82 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 82 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 82 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 82 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 82 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:09:35] __main__ | INFO | list_groups: 84 | ############################################################
+[2025-07-12 12:09:35] __main__ | INFO | monitor_group: 104 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:10:09] __main__ | INFO | <module>: 159 | Program terminated by user
+[2025-07-12 12:10:09] __main__ | INFO | <module>: 163 | Program finished
+[2025-07-12 12:10:11] __main__ | INFO | <module>: 152 | Program starting...
+[2025-07-12 12:10:11] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:10:11] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:10:11] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:10:11] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:10:11] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 82 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 82 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 82 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 82 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 82 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:10:11] __main__ | INFO | list_groups: 84 | ########################################################################################################################
+[2025-07-12 12:10:11] __main__ | INFO | monitor_group: 104 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:11:15] __main__ | INFO | <module>: 159 | Program terminated by user
+[2025-07-12 12:11:15] __main__ | INFO | <module>: 163 | Program finished
+[2025-07-12 12:11:17] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:11:17] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:11:17] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:11:17] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:11:18] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:11:18] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 79 | 
+
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:11:18] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:11:18] __main__ | INFO | monitor_group: 106 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:11:30] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:11:30] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:11:32] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:11:32] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:11:32] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:11:32] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:11:32] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:11:32] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 72 | 📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 79 | 
+
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:11:32] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:11:32] __main__ | INFO | monitor_group: 106 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:11:51] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:11:51] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:11:53] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:11:53] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:11:53] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:11:53] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:11:53] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:11:54] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:11:54] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:11:54] __main__ | INFO | list_groups: 72 | 📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:11:54] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:11:54] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:11:54] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:11:54] __main__ | ERROR | <module>: 163 | Unexpected error: Logger.info() missing 1 required positional argument: 'msg'
+[2025-07-12 12:11:54] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:12:26] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:12:26] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:12:26] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:12:26] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:12:26] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:12:26] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 72 | 📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 79 | 
+
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:12:26] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:12:26] __main__ | INFO | monitor_group: 106 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:13:17] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:13:17] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:13:18] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:13:18] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:13:18] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:13:18] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:13:19] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:13:19] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 72 | 📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 79 | 📋 Детальная информация:
+
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:13:19] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:13:19] __main__ | INFO | monitor_group: 106 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:13:46] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:13:46] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:13:48] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:13:48] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:13:48] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:13:48] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:13:49] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:13:49] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:13:49] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:13:49] __main__ | INFO | monitor_group: 106 | 🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:14:48] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:14:48] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:14:50] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:14:50] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:14:50] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:14:50] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:14:50] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:14:50] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:14:50] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:14:50] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:14:50] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:14:50] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:14:50] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:14:50] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:14:51] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:14:51] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:14:51] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:14:51] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:14:51] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:14:51] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:14:51] __main__ | INFO | monitor_group: 106 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:22:40] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:22:40] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:22:42] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:22:42] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:22:42] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:22:42] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:22:42] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:22:42] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:22:42] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:22:42] __main__ | INFO | monitor_group: 106 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:22:42] __main__ | ERROR | <module>: 163 | Unexpected error: a coroutine was expected, got None
+[2025-07-12 12:22:42] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:23:29] __main__ | INFO | <module>: 156 | Program starting...
+[2025-07-12 12:23:29] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:23:29] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:23:29] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:23:29] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:23:29] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:23:29] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:23:29] __main__ | INFO | monitor_group: 106 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:23:29] __main__ | ERROR | <module>: 165 | Unexpected error: a coroutine was expected, got None
+[2025-07-12 12:23:29] __main__ | INFO | <module>: 167 | Program finished
+[2025-07-12 12:26:00] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:26:00] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:26:00] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:26:00] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:26:01] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:26:01] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:26:01] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:26:01] __main__ | INFO | monitor_group: 104 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:26:18] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:26:18] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:26:21] __main__ | INFO | <module>: 154 | Program starting...
+[2025-07-12 12:26:21] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:26:21] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:26:21] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:26:22] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:26:22] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:26:22] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:26:22] __main__ | INFO | monitor_group: 104 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:36:55] __main__ | INFO | <module>: 161 | Program terminated by user
+[2025-07-12 12:36:55] __main__ | INFO | <module>: 165 | Program finished
+[2025-07-12 12:36:57] __main__ | INFO | <module>: 166 | Program starting...
+[2025-07-12 12:36:57] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:36:57] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:36:57] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:36:58] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:36:58] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:36:58] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:36:58] __main__ | INFO | main: 155 | 🔍 Получаем список участников группы...
+[2025-07-12 12:36:58] __main__ | INFO | get_group_members: 133 | ########################################################################################################################
+[2025-07-12 12:36:58] __main__ | INFO | get_group_members: 134 | 
+🔍 Получаем список участников группы...
+[2025-07-12 12:36:58] __main__ | INFO | get_group_members: 142 | 3 участников группы:
+
+[2025-07-12 12:36:58] __main__ | INFO | get_group_members: 144 | 👤 @sturmvogel_82
+[2025-07-12 12:36:58] __main__ | INFO | get_group_members: 144 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 12:36:58] __main__ | INFO | get_group_members: 144 | 👤 @akatendra
+[2025-07-12 12:36:58] __main__ | INFO | get_group_members: 145 | ########################################################################################################################
+[2025-07-12 12:36:58] __main__ | INFO | monitor_group: 104 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:37:25] __main__ | INFO | <module>: 173 | Program terminated by user
+[2025-07-12 12:37:25] __main__ | INFO | <module>: 177 | Program finished
+[2025-07-12 12:37:28] __main__ | INFO | <module>: 166 | Program starting...
+[2025-07-12 12:37:28] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:37:28] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:37:28] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:37:28] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:37:28] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:37:28] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:37:28] __main__ | INFO | main: 155 | 🔍 Получаем список участников группы...
+[2025-07-12 12:37:28] __main__ | INFO | get_group_members: 133 | ########################################################################################################################
+[2025-07-12 12:37:28] __main__ | INFO | get_group_members: 134 | 
+🔍 Получаем список участников группы...
+[2025-07-12 12:37:28] __main__ | INFO | get_group_members: 142 | Участников группы: 3
+
+[2025-07-12 12:37:28] __main__ | INFO | get_group_members: 144 | 👤 @sturmvogel_82
+[2025-07-12 12:37:28] __main__ | INFO | get_group_members: 144 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 12:37:28] __main__ | INFO | get_group_members: 144 | 👤 @akatendra
+[2025-07-12 12:37:28] __main__ | INFO | get_group_members: 145 | ########################################################################################################################
+[2025-07-12 12:37:28] __main__ | INFO | monitor_group: 104 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 12:37:48] __main__ | INFO | <module>: 173 | Program terminated by user
+[2025-07-12 12:37:48] __main__ | INFO | <module>: 177 | Program finished
+[2025-07-12 12:37:50] __main__ | INFO | <module>: 165 | Program starting...
+[2025-07-12 12:37:50] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 12:37:50] __main__ | INFO | init_client: 32 | Creating Telegram client...
+[2025-07-12 12:37:50] __main__ | INFO | init_client: 35 | Connecting to Telegram...
+[2025-07-12 12:37:50] __main__ | INFO | init_client: 54 | Authorization successful ✅
+[2025-07-12 12:37:50] __main__ | INFO | init_client: 56 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 71 | ########################################################################################################################
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 72 | 
+📋 Доступные чаты, группы и каналы:
+
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 77 | 📌 КОРАБЕЛИ — ID: -1002123586827
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -1002723266374
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 77 | 📌 Миколаїв Заводський Тривога — ID: -4836352720
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 79 | 
+📋 Детальная информация:
+
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 84 | КОРАБЕЛИ — ID: 2123586827 — Type: <class 'telethon.tl.types.Channel'> — Username: korabely_media
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 2723266374 — Type: <class 'telethon.tl.types.Channel'> — Username: None
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 84 | BotFather — ID: 93372553 — Type: <class 'telethon.tl.types.User'> — Username: BotFather
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 84 | Миколаїв Заводський Тривога — ID: 4836352720 — Type: <class 'telethon.tl.types.Chat'> — Username: None
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 84 | Telegram — ID: 777000 — Type: <class 'telethon.tl.types.User'> — Username: None
+[2025-07-12 12:37:50] __main__ | INFO | list_groups: 86 | ########################################################################################################################
+[2025-07-12 12:37:50] __main__ | INFO | get_group_members: 133 | ########################################################################################################################
+[2025-07-12 12:37:50] __main__ | INFO | get_group_members: 134 | 
+🔍 Получаем список участников группы...
+[2025-07-12 12:37:50] __main__ | INFO | get_group_members: 142 | Участников группы: 3
+
+[2025-07-12 12:37:50] __main__ | INFO | get_group_members: 144 | 👤 @sturmvogel_82
+[2025-07-12 12:37:50] __main__ | INFO | get_group_members: 144 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 12:37:50] __main__ | INFO | get_group_members: 144 | 👤 @akatendra
+[2025-07-12 12:37:50] __main__ | INFO | get_group_members: 145 | ########################################################################################################################
+[2025-07-12 12:37:50] __main__ | INFO | monitor_group: 104 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 13:41:24] __main__ | INFO | <module>: 172 | Program terminated by user
+[2025-07-12 13:41:24] __main__ | INFO | <module>: 176 | Program finished
+[2025-07-12 13:41:26] __main__ | INFO | <module>: 208 | Program starting...
+[2025-07-12 13:41:26] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 13:41:26] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 13:41:26] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 13:41:27] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 13:41:27] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 13:41:27] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 13:41:27] __main__ | INFO | init_bot: 76 | Connecting to Telegram...
+[2025-07-12 13:41:27] __main__ | ERROR | init_bot: 83 | 💥 Unexpected error: 'coroutine' object has no attribute 'connect'
+[2025-07-12 13:41:27] __main__ | ERROR | <module>: 216 | Unexpected error: 'coroutine' object has no attribute 'connect'
+[2025-07-12 13:41:27] __main__ | INFO | <module>: 218 | Program finished
+[2025-07-12 13:45:00] __main__ | INFO | <module>: 209 | Program starting...
+[2025-07-12 13:45:00] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 13:45:00] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 13:45:00] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 13:45:00] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 13:45:00] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 13:45:00] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 13:45:00] __main__ | INFO | init_bot: 76 | Starting bot...
+[2025-07-12 13:45:02] __main__ | INFO | init_bot: 79 | Bot client connected ✅
+[2025-07-12 13:45:02] __main__ | INFO | monitor_group: 132 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 14:08:52] __main__ | INFO | <module>: 215 | Program terminated by user
+[2025-07-12 14:08:52] __main__ | INFO | <module>: 219 | Program finished
+[2025-07-12 14:08:55] __main__ | INFO | <module>: 223 | Program starting...
+[2025-07-12 14:08:55] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 14:08:55] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 14:08:55] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 14:08:55] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 14:08:55] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 14:08:55] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 14:08:55] __main__ | INFO | init_bot: 76 | Starting bot...
+[2025-07-12 14:08:56] __main__ | INFO | init_bot: 79 | Bot client connected ✅
+[2025-07-12 14:08:56] __main__ | INFO | monitor_group: 146 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 14:33:46] __main__ | INFO | <module>: 229 | Program terminated by user
+[2025-07-12 14:33:46] __main__ | INFO | <module>: 233 | Program finished
+[2025-07-12 14:33:50] __main__ | INFO | <module>: 223 | Program starting...
+[2025-07-12 14:33:50] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 14:33:50] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 14:33:50] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 14:33:51] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 14:33:51] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 14:33:51] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 14:33:51] __main__ | INFO | init_bot: 76 | Starting bot...
+[2025-07-12 14:33:52] __main__ | INFO | init_bot: 79 | Bot client connected ✅
+[2025-07-12 14:33:52] __main__ | INFO | monitor_group: 146 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 14:34:26] __main__ | INFO | <module>: 229 | Program terminated by user
+[2025-07-12 14:34:26] __main__ | INFO | <module>: 233 | Program finished
+[2025-07-12 14:39:18] __main__ | INFO | <module>: 232 | Program starting...
+[2025-07-12 14:39:18] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 14:39:18] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 14:39:18] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 14:39:18] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 14:39:18] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 14:39:18] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 14:39:18] __main__ | INFO | init_bot: 76 | Starting bot...
+[2025-07-12 14:39:19] __main__ | INFO | init_bot: 79 | Bot client connected ✅
+[2025-07-12 14:39:19] __main__ | INFO | monitor_group: 155 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 14:39:48] __main__ | INFO | <module>: 238 | Program terminated by user
+[2025-07-12 14:39:48] __main__ | INFO | <module>: 242 | Program finished
+[2025-07-12 14:39:50] __main__ | INFO | <module>: 232 | Program starting...
+[2025-07-12 14:39:50] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 14:39:50] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 14:39:50] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 14:39:51] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 14:39:51] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 14:39:51] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 14:39:51] __main__ | INFO | init_bot: 76 | Starting bot...
+[2025-07-12 14:39:51] __main__ | INFO | init_bot: 79 | Bot client connected ✅
+[2025-07-12 14:39:51] __main__ | INFO | monitor_group: 155 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 14:40:13] __main__ | INFO | <module>: 238 | Program terminated by user
+[2025-07-12 14:40:13] __main__ | INFO | <module>: 242 | Program finished
+[2025-07-12 14:40:41] __main__ | INFO | <module>: 232 | Program starting...
+[2025-07-12 14:40:41] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 14:40:41] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 14:40:41] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 14:40:42] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 14:40:42] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 14:40:42] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 14:40:42] __main__ | INFO | init_bot: 76 | Starting bot...
+[2025-07-12 14:40:42] __main__ | INFO | init_bot: 79 | Bot client connected ✅
+[2025-07-12 14:40:42] __main__ | INFO | monitor_group: 155 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 19:26:03] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: балістика не до нас, 4.5.0
+[2025-07-12 19:26:03] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 19:26:03] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 19:26:03] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 19:26:03] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 19:26:03] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 19:26:03] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 19:26:03] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 19:26:03] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    """
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 19:40:05] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: у нас всюди чисто, без змін
+[2025-07-12 19:40:05] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 19:40:05] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 19:40:05] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 19:40:05] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 19:40:05] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 19:40:05] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 19:40:05] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 19:40:05] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    """
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 19:59:06] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: 🟢 Херсонська область
+Відбій повітряної тривоги
+
+19:58
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 19:59:06] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: 🟢 Миколаївська область
+Відбій повітряної тривоги
+
+19:58
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 19:59:06] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    """
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 19:59:06] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 19:59:06] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    """
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 20:00:23] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: всьо, йди жити життя💋
+[2025-07-12 20:00:23] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 20:00:23] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 20:00:23] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 20:00:23] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 20:00:23] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 20:00:23] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 20:00:23] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 20:00:23] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    """
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 20:16:43] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: як думаєте, сьогодні відпочиваємо?
+[2025-07-12 20:16:43] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 20:16:43] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 20:16:43] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 20:16:43] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 20:16:43] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 20:16:43] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 20:16:43] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 20:16:43] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    """
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 20:43:10] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: ану розкажи, в якому місті живеш?
+[2025-07-12 20:43:10] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 20:43:10] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 20:43:10] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 20:43:10] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 20:43:10] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 20:43:10] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 20:43:10] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 20:43:10] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    """
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 20:50:10] __main__ | WARNING | handler: 135 | 🚨 ТРИВОГА: Інфу збирають...
+Ясно...
+ТЦК...
+[2025-07-12 20:50:10] __main__ | INFO | get_group_members: 184 | ########################################################################################################################
+[2025-07-12 20:50:10] __main__ | INFO | get_group_members: 185 | 
+🔍 Получаем список участников группы...
+[2025-07-12 20:50:11] __main__ | INFO | get_group_members: 193 | Участников группы: 3
+
+[2025-07-12 20:50:11] __main__ | INFO | get_group_members: 195 | 👤 @sturmvogel_82
+[2025-07-12 20:50:11] __main__ | INFO | get_group_members: 195 | 👤 @mykolaiv_zavodskij_alert_bot
+[2025-07-12 20:50:11] __main__ | INFO | get_group_members: 195 | 👤 @akatendra
+[2025-07-12 20:50:11] __main__ | INFO | get_group_members: 196 | ########################################################################################################################
+[2025-07-12 20:50:11] telethon.client.updates | ERROR | _dispatch_update: 586 | Unhandled exception on handler
+Traceback (most recent call last):
+  File "G:\Python_projects\Shelter_Alarmer\.venv\lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 137, in handler
+    if contains_keyword(message, keyword):
+  File "G:\Python_projects\Shelter_Alarmer\main.py", line 207, in send_alert
+    if user.username:
+AttributeError: 'str' object has no attribute 'username'
+[2025-07-12 20:53:13] __main__ | INFO | <module>: 238 | Program terminated by user
+[2025-07-12 20:53:13] __main__ | INFO | <module>: 242 | Program finished
+[2025-07-12 20:53:18] __main__ | INFO | <module>: 239 | Program starting...
+[2025-07-12 20:53:18] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 20:53:18] __main__ | INFO | init_client: 33 | Creating Telegram client...
+[2025-07-12 20:53:18] __main__ | INFO | init_client: 36 | Connecting to Telegram...
+[2025-07-12 20:53:19] __main__ | INFO | init_client: 55 | Authorization successful ✅
+[2025-07-12 20:53:19] __main__ | INFO | init_client: 57 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 20:53:19] __main__ | INFO | init_bot: 73 | Creating Telegram bot client...
+[2025-07-12 20:53:19] __main__ | INFO | init_bot: 76 | Starting bot...
+[2025-07-12 20:53:20] __main__ | INFO | init_bot: 79 | Bot client connected ✅
+[2025-07-12 20:53:20] __main__ | INFO | monitor_group: 158 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 21:06:22] __main__ | INFO | <module>: 245 | Program terminated by user
+[2025-07-12 21:06:22] __main__ | INFO | <module>: 249 | Program finished
+[2025-07-12 21:20:29] __main__ | INFO | <module>: 253 | Program starting...
+[2025-07-12 21:20:29] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 21:20:29] __main__ | INFO | init_client: 36 | Creating Telegram client...
+[2025-07-12 21:20:30] __main__ | INFO | init_client: 39 | Connecting to Telegram...
+[2025-07-12 21:20:30] __main__ | INFO | init_client: 58 | Authorization successful ✅
+[2025-07-12 21:20:30] __main__ | INFO | init_client: 60 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 21:20:30] __main__ | INFO | init_bot: 76 | Creating Telegram bot client...
+[2025-07-12 21:20:30] __main__ | INFO | init_bot: 79 | Starting bot...
+[2025-07-12 21:20:31] __main__ | INFO | init_bot: 82 | Bot client connected ✅
+[2025-07-12 21:20:31] __main__ | INFO | monitor_group: 169 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 21:20:42] __main__ | INFO | <module>: 259 | Program terminated by user
+[2025-07-12 21:20:42] __main__ | INFO | <module>: 263 | Program finished
+[2025-07-12 21:21:39] __main__ | INFO | <module>: 253 | Program starting...
+[2025-07-12 21:21:39] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 21:21:39] __main__ | INFO | init_client: 36 | Creating Telegram client...
+[2025-07-12 21:21:39] __main__ | INFO | init_client: 39 | Connecting to Telegram...
+[2025-07-12 21:21:39] __main__ | INFO | init_client: 58 | Authorization successful ✅
+[2025-07-12 21:21:39] __main__ | INFO | init_client: 60 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 21:21:39] __main__ | INFO | init_bot: 76 | Creating Telegram bot client...
+[2025-07-12 21:21:39] __main__ | INFO | init_bot: 79 | Starting bot...
+[2025-07-12 21:21:40] __main__ | INFO | init_bot: 82 | Bot client connected ✅
+[2025-07-12 21:21:40] __main__ | INFO | monitor_group: 169 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 21:21:58] __main__ | INFO | <module>: 259 | Program terminated by user
+[2025-07-12 21:21:58] __main__ | INFO | <module>: 263 | Program finished
+[2025-07-12 21:22:00] __main__ | INFO | <module>: 253 | Program starting...
+[2025-07-12 21:22:00] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 21:22:00] __main__ | INFO | init_client: 36 | Creating Telegram client...
+[2025-07-12 21:22:00] __main__ | INFO | init_client: 39 | Connecting to Telegram...
+[2025-07-12 21:22:00] __main__ | INFO | init_client: 58 | Authorization successful ✅
+[2025-07-12 21:22:01] __main__ | INFO | init_client: 60 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 21:22:01] __main__ | INFO | init_bot: 76 | Creating Telegram bot client...
+[2025-07-12 21:22:01] __main__ | INFO | init_bot: 79 | Starting bot...
+[2025-07-12 21:22:01] __main__ | INFO | init_bot: 82 | Bot client connected ✅
+[2025-07-12 21:22:02] __main__ | INFO | monitor_group: 169 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 21:22:13] __main__ | INFO | <module>: 259 | Program terminated by user
+[2025-07-12 21:22:13] __main__ | INFO | <module>: 263 | Program finished
+[2025-07-12 21:22:15] __main__ | INFO | <module>: 253 | Program starting...
+[2025-07-12 21:22:15] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 21:22:15] __main__ | INFO | init_client: 36 | Creating Telegram client...
+[2025-07-12 21:22:15] __main__ | INFO | init_client: 39 | Connecting to Telegram...
+[2025-07-12 21:22:15] __main__ | INFO | init_client: 58 | Authorization successful ✅
+[2025-07-12 21:22:15] __main__ | INFO | init_client: 60 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 21:22:15] __main__ | INFO | init_bot: 76 | Creating Telegram bot client...
+[2025-07-12 21:22:15] __main__ | INFO | init_bot: 79 | Starting bot...
+[2025-07-12 21:22:15] __main__ | INFO | init_bot: 82 | Bot client connected ✅
+[2025-07-12 21:22:15] __main__ | INFO | monitor_group: 169 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 21:22:54] __main__ | INFO | <module>: 259 | Program terminated by user
+[2025-07-12 21:22:54] __main__ | INFO | <module>: 263 | Program finished
+[2025-07-12 21:22:56] __main__ | INFO | <module>: 253 | Program starting...
+[2025-07-12 21:22:56] asyncio | DEBUG | __init__: 626 | Using proactor: IocpProactor
+[2025-07-12 21:22:56] __main__ | INFO | init_client: 36 | Creating Telegram client...
+[2025-07-12 21:22:56] __main__ | INFO | init_client: 39 | Connecting to Telegram...
+[2025-07-12 21:22:56] __main__ | INFO | init_client: 58 | Authorization successful ✅
+[2025-07-12 21:22:56] __main__ | INFO | init_client: 60 | Logged in as Че (@sturmvogel_82)
+[2025-07-12 21:22:56] __main__ | INFO | init_bot: 76 | Creating Telegram bot client...
+[2025-07-12 21:22:56] __main__ | INFO | init_bot: 79 | Starting bot...
+[2025-07-12 21:22:57] __main__ | INFO | init_bot: 82 | Bot client connected ✅
+[2025-07-12 21:22:57] __main__ | INFO | monitor_group: 169 | 
+🎧 Слушаем сообщения из группы КОРАБЕЛИ с ID -1002123586827... (нажми Ctrl+C чтобы остановить)
+[2025-07-12 21:54:59] __main__ | INFO | handler: 163 | ########################################################################################################################
+[2025-07-12 21:54:59] __main__ | INFO | handler: 164 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: 
+[2025-07-12 21:59:59] __main__ | WARNING | handler: 149 | 🚨 ТРИВОГА: чим займаєшся? Показуй
+[2025-07-12 21:59:59] __main__ | INFO | handler: 152 | 📨 Отправляем тревожное сообщение 3 участникам...
+[2025-07-12 21:59:59] __main__ | INFO | handler: 157 | 👉 Отправляем пользователю Че Гевара (ID: 7694396064)
+[2025-07-12 21:59:59] __main__ | INFO | handler: 157 | 👉 Отправляем пользователю Тривога Бот (ID: 8091259915)
+[2025-07-12 21:59:59] __main__ | INFO | handler: 157 | 👉 Отправляем пользователю Kонстантин Kор (ID: 490340007)
+[2025-07-12 21:59:59] __main__ | INFO | handler: 163 | ########################################################################################################################
+[2025-07-12 21:59:59] __main__ | INFO | handler: 164 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: чим займаєшся? Показуй
+[2025-07-12 22:56:03] __main__ | WARNING | handler: 149 | 🚨 ТРИВОГА: у нас пусків не було, йдіть відпочивати та тихої ночі💋
+[2025-07-12 22:56:03] __main__ | INFO | handler: 152 | 📨 Отправляем тревожное сообщение 3 участникам...
+[2025-07-12 22:56:03] __main__ | INFO | handler: 157 | 👉 Отправляем пользователю Тривога Бот (ID: 8091259915)
+[2025-07-12 22:56:03] __main__ | INFO | handler: 157 | 👉 Отправляем пользователю Че Гевара (ID: 7694396064)
+[2025-07-12 22:56:03] __main__ | INFO | handler: 157 | 👉 Отправляем пользователю Kонстантин Kор (ID: 490340007)
+[2025-07-12 22:56:03] __main__ | INFO | handler: 163 | ########################################################################################################################
+[2025-07-12 22:56:03] __main__ | INFO | handler: 164 | 
+📥 Новое сообщение в группе:
+👤 От: КОРАБЕЛИ
+💬 Сообщение: у нас пусків не було, йдіть відпочивати та тихої ночі💋

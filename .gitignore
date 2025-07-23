@@ -1,0 +1,14 @@
+.env
+*.session
+__pycache__/
+main_old.py
+*mp3
+*ogg
+
+# PowerShell скрипты
+*.ps1
+
+# Логи
+*.log
+logs/
+output.txt
