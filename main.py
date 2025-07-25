@@ -145,13 +145,23 @@ stopbot	Убивает процесс с ботом
 ################################################################################
  Команды управления ботом:
 
-Команда	Действие
-systemctl restart zavodskij_alarmer	 Перезапуск (если изменил код)
-systemctl stop zavodskij_alarmer	Остановить бота
-systemctl start zavodskij_alarmer	Запустить снова
-systemctl status zavodskij_alarmer	Посмотреть статус
-journalctl -u zavodskij_alarmer -f	Смотреть вывод в реальном времени
-tail -f /opt/zavodskij_alarmer/logs/alarmer.log	Если у тебя включён лог в файл
+Команды:
+Перезапуск (если изменил код):
+systemctl restart zavodskij_alarmer
+Остановить бота:
+systemctl stop zavodskij_alarmer
+Запустить снова:
+systemctl start zavodskij_alarmer
+Посмотреть статус:
+systemctl status zavodskij_alarmer
+
+Смотреть вывод systemd в реальном времени (Когда сервис был запущен / Когда остановлен).
+Выводит живой лог (в реальном времени) от systemd-сервиса zavodskij_alarmer.
+journalctl -u zavodskij_alarmer -f
+
+Если у тебя включён лог в файл
+tail -f /opt/zavodskij_alarmer/worklog.log
+
 """
 from datetime import datetime
 
@@ -159,6 +169,7 @@ from telethon import TelegramClient, events, errors
 from config import TELEGRAM_BOT_API_TOKEN, TELEGRAM_API_ID, TELEGRAM_API_HASH, PHONE_NUMBER, ALERT_GROUP_ID, MY_CHAT_ID
 from getpass import getpass
 import asyncio
+from collections import defaultdict
 
 # Set up logging
 import logging.config
@@ -286,35 +297,73 @@ async def monitor_group(client, bot, keyword, monitoring_group_id, excluded_keyw
     if excluded_keywords is None:
         excluded_keywords = []
 
+    album_messages = defaultdict(list)
+
     @client.on(events.NewMessage(chats=monitoring_group_id))
     async def handler(event):
-        message = event.message.message
+        message = event.message
 
-        # Поиск опасности в сообщении
-        if contains_keyword(message, keyword):
-            # Проверяем на исключаемые ключевые слова
-            excluded_found = False
-            for excluded_keyword in excluded_keywords:
-                if contains_keyword(message, excluded_keyword):
-                    logger.info(f"⚠️ Найдено исключаемое слово '{excluded_keyword}' в сообщении. Тревога не отправляется.")
-                    excluded_found = True
-                    break
-            
-            # Отправляем тревогу только если не найдено исключаемых слов
-            if not excluded_found:
-                logger.warning(f"🔴 ⬇️⬇️⬇️ ТРИВОГА!!! ТРИВОГА!!! ТРИВОГА!!! ⬇️⬇️⬇️ 🔴")
-                await send_alert(bot, ALERT_GROUP_ID, message)
-                logger.info(f"📨 Отправили тревожное сообщение участникам группы...")
-        # Конец поиска опасности в сообщении
+        # Пропускаем служебные сообщения (типа join/leave/etc)
+        if not hasattr(message, 'message') and not message.grouped_id:
+            logger.info("[DEBUG] Служебное сообщение, игнорируем")
+            return
 
-        # Логирование информации о сообщении происходит всегда
-        sender = await event.get_sender()
-        sender_name = getattr(sender, 'first_name', None) or getattr(sender, 'title', None) or "Unknown"
+        grouped_id = message.grouped_id
 
-        logger.info("#" * 120)
-        logger.info(f"\n📥 Новое сообщение в группе:\n"
-              f"👤 От: {sender_name}\n"
-              f"💬 Сообщение:\n{message}")
+        if grouped_id:
+            album_messages[grouped_id].append(message)
+            if message.message:  # появился текст — обрабатываем только эту часть
+                logger.info(f"[DEBUG] Последнее сообщение в альбоме с текстом. Обрабатываем grouped_id={grouped_id}")
+                text = message.message
+
+                if not text.strip():
+                    logger.info("[DEBUG] Текст в альбоме пустой, не обрабатываем")
+                    return
+
+                # Поиск тревожного слова
+                if contains_keyword(text, keyword):
+                    logger.info(f"⚠️ Найдено ключевое слово '{keyword}' в сообщении (альбом). Проверяем исключения...")
+                    for excluded_keyword in excluded_keywords:
+                        if contains_keyword(text, excluded_keyword):
+                            logger.info(f"⚠️ Найдено исключаемое слово '{excluded_keyword}' — тревога не отправляется.")
+                            return
+
+                    logger.warning("🔴 ТРИВОГА!!! Отправляем сообщение из альбома!")
+                    await send_alert(bot, ALERT_GROUP_ID, text)
+                    logger.info("📨 Тревожное сообщение отправлено")
+
+                # Логируем
+                sender = await event.get_sender()
+                sender_name = getattr(sender, 'first_name', None) or getattr(sender, 'title', None) or "Unknown"
+                logger.info("#" * 120)
+                logger.info(f"\n📥 Альбомное сообщение:\n👤 От: {sender_name}\n💬 Сообщение:\n{text}")
+
+                # Очистка буфера
+                del album_messages[grouped_id]
+
+        else:
+            # Обычное сообщение (не альбом)
+            text = message.message or getattr(message, 'text', '')
+            if not text.strip():
+                logger.info("[DEBUG] Пустое одиночное сообщение, не обрабатываем")
+                return
+
+            if contains_keyword(text, keyword):
+                logger.info(f"⚠️ Найдено ключевое слово '{keyword}' в обычном сообщении. Проверяем исключения...")
+                for excluded_keyword in excluded_keywords:
+                    if contains_keyword(text, excluded_keyword):
+                        logger.info(f"⚠️ Найдено исключаемое слово '{excluded_keyword}' — тревога не отправляется.")
+                        return
+
+                logger.warning("🔴 ТРИВОГА!!! Отправляем обычное сообщение!")
+                await send_alert(bot, ALERT_GROUP_ID, text)
+                logger.info("📨 Тревожное сообщение отправлено")
+
+            # Лог
+            sender = await event.get_sender()
+            sender_name = getattr(sender, 'first_name', None) or getattr(sender, 'title', None) or "Unknown"
+            logger.info("#" * 120)
+            logger.info(f"\n📥 Одиночное сообщение:\n👤 От: {sender_name}\n💬 Сообщение:\n{text}")
 
     monitoring_group_name = await get_group_name(client, monitoring_group_id)
     logger.info(f"\n Слушаем сообщения из группы {monitoring_group_name} с ID {monitoring_group_id}... (нажми Ctrl+C чтобы остановить)")
@@ -329,7 +378,7 @@ async def send_alert(bot, alert_group_id, alert_text):
     Отправляет тревожное сообщение в группу.
     """
     text = f"\n\n{alert_text}"
-    await bot.send_message(alert_group_id, text)
+    await bot.send_message(alert_group_id, text, silent=False)
 
 
 async def main():
