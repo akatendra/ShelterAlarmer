@@ -284,24 +284,32 @@ async def list_groups(client):
     logger.info("#" * 120)
 
 
-async def monitor_group(client, bot, keyword, monitoring_group_id, excluded_keywords=None):
+async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_keywords=None, ballistika_keywords=None):
     """
     Функция мониторинга группы на тревожное слово
     :param client:
     :param bot:
-    :param keyword:
+    :param keywords:
     :param monitoring_group_id:
     :param excluded_keywords: список исключаемых ключевых слов
     :return:
     """
     if excluded_keywords is None:
         excluded_keywords = []
+    if ballistika_keywords is None:
+        ballistika_keywords = []
 
     album_messages = defaultdict(list)
 
     @client.on(events.NewMessage(chats=monitoring_group_id))
     async def handler(event):
+        # Детальное логирование времени для диагностики задержек
+        handler_start_time = datetime.now()
         message = event.message
+        
+        logger.info(f"[TIMING] ⏰ Обработчик запущен в: {handler_start_time.strftime('%H:%M:%S.%f')[:-3]}")
+        logger.info(f"[TIMING] 📅 Время сообщения в Telegram: {message.date}")
+        logger.info(f"[TIMING] ⏱️ Разница: {(handler_start_time - message.date.replace(tzinfo=None)).total_seconds():.2f} секунд")
 
         # Пропускаем служебные сообщения (типа join/leave/etc)
         if not hasattr(message, 'message') and not message.grouped_id:
@@ -321,15 +329,33 @@ async def monitor_group(client, bot, keyword, monitoring_group_id, excluded_keyw
                     return
 
                 # Поиск тревожного слова
-                if contains_keyword(text, keyword):
-                    logger.info(f"⚠️ Найдено ключевое слово '{keyword}' в сообщении (альбом). Проверяем исключения...")
+                keyword_check_time = datetime.now()
+                logger.info(f"[TIMING] 🔍 Начало проверки ключевых слов: {keyword_check_time.strftime('%H:%M:%S.%f')[:-3]}")
+                
+                alert_triggered = False
+                
+                if contains_any_keyword(text, keywords):
+                    logger.info(f"⚠️ Найдено ключевое слово из списка {keywords} в сообщении (альбом). Проверяем исключения...")
+                    alert_triggered = True
+                elif ballistika_keywords and contains_all_keywords(text, ballistika_keywords):
+                    logger.info(f"⚠️ Найдены ВСЕ ключевые слова {ballistika_keywords} в сообщении (альбом). Проверяем исключения...")
+                    alert_triggered = True
+                
+                if alert_triggered:
                     for excluded_keyword in excluded_keywords:
                         if contains_keyword(text, excluded_keyword):
                             logger.info(f"⚠️ Найдено исключаемое слово '{excluded_keyword}' — тревога не отправляется.")
                             return
 
                     logger.warning("🔴 ТРИВОГА!!! Отправляем сообщение из альбома!")
+                    alert_send_time = datetime.now()
+                    logger.info(f"[TIMING] 📤 Начало отправки алерта: {alert_send_time.strftime('%H:%M:%S.%f')[:-3]}")
+                    
                     await send_alert(bot, ALERT_GROUP_ID, text)
+                    
+                    alert_sent_time = datetime.now()
+                    logger.info(f"[TIMING] ✅ Алерт отправлен: {alert_sent_time.strftime('%H:%M:%S.%f')[:-3]}")
+                    logger.info(f"[TIMING] ⏱️ Время отправки алерта: {(alert_sent_time - alert_send_time).total_seconds():.3f} секунд")
                     logger.info("📨 Тревожное сообщение отправлено")
 
                 # Логируем
@@ -348,15 +374,34 @@ async def monitor_group(client, bot, keyword, monitoring_group_id, excluded_keyw
                 logger.info("[DEBUG] Пустое одиночное сообщение, не обрабатываем")
                 return
 
-            if contains_keyword(text, keyword):
-                logger.info(f"⚠️ Найдено ключевое слово '{keyword}' в обычном сообщении. Проверяем исключения...")
+            # Логирование времени для обычных сообщений
+            keyword_check_time = datetime.now()
+            logger.info(f"[TIMING] 🔍 Начало проверки ключевых слов (обычное сообщение): {keyword_check_time.strftime('%H:%M:%S.%f')[:-3]}")
+            
+            alert_triggered = False
+            
+            if contains_any_keyword(text, keywords):
+                logger.info(f"⚠️ Найдено ключевое слово из списка {keywords} в обычном сообщении. Проверяем исключения...")
+                alert_triggered = True
+            elif ballistika_keywords and contains_all_keywords(text, ballistika_keywords):
+                logger.info(f"⚠️ Найдены ВСЕ ключевые слова {ballistika_keywords} в обычном сообщении. Проверяем исключения...")
+                alert_triggered = True
+            
+            if alert_triggered:
                 for excluded_keyword in excluded_keywords:
                     if contains_keyword(text, excluded_keyword):
                         logger.info(f"⚠️ Найдено исключаемое слово '{excluded_keyword}' — тревога не отправляется.")
                         return
 
                 logger.warning("🔴 ТРИВОГА!!! Отправляем обычное сообщение!")
+                alert_send_time = datetime.now()
+                logger.info(f"[TIMING] 📤 Начало отправки алерта (обычное сообщение): {alert_send_time.strftime('%H:%M:%S.%f')[:-3]}")
+                
                 await send_alert(bot, ALERT_GROUP_ID, text)
+                
+                alert_sent_time = datetime.now()
+                logger.info(f"[TIMING] ✅ Алерт отправлен (обычное сообщение): {alert_sent_time.strftime('%H:%M:%S.%f')[:-3]}")
+                logger.info(f"[TIMING] ⏱️ Время отправки алерта: {(alert_sent_time - alert_send_time).total_seconds():.3f} секунд")
                 logger.info("📨 Тревожное сообщение отправлено")
 
             # Лог
@@ -371,6 +416,18 @@ async def monitor_group(client, bot, keyword, monitoring_group_id, excluded_keyw
 
 def contains_keyword(text: str, keyword: str) -> bool:
     return keyword.lower() in text.lower()
+
+
+def contains_any_keyword(text: str, keywords: list[str]) -> bool:
+    """Проверяет, содержит ли текст любое из ключевых слов из списка"""
+    text_lower = text.lower()
+    return any(keyword.lower() in text_lower for keyword in keywords)
+
+
+def contains_all_keywords(text: str, keywords: list[str]) -> bool:
+    """Проверяет, содержит ли текст ВСЕ ключевые слова из списка"""
+    text_lower = text.lower()
+    return all(keyword.lower() in text_lower for keyword in keywords)
 
 
 async def send_alert(bot, alert_group_id, alert_text):
@@ -392,15 +449,15 @@ async def main():
     # await list_groups(client)  # Список всех доступных чатов
 
     # Запускаем слушателя
-    await monitor_group(client, bot, KEYWORD, MONITORING_CHANNELL_ID, EXCLUDED_KEYWORDS)
+    await monitor_group(client, bot, KEYWORDS, MONITORING_CHANNELL_ID, EXCLUDED_KEYWORDS, BALLISTIKA_KEYWORDS)
 
     await client.run_until_disconnected()
 
 
 if __name__ == '__main__':
-    KEYWORD = "заводс"
-    # KEYWORD = "о"
+    KEYWORDS = ["заводс", "центр"]
     EXCLUDED_KEYWORDS = ["кумпол", "нічого нема"]
+    BALLISTIKA_KEYWORDS = ["Миколаїв", "балістика"]
 
     logger.info("Program starting...")
 
