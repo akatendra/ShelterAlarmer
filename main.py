@@ -163,7 +163,7 @@ journalctl -u zavodskij_alarmer -f
 tail -f /opt/zavodskij_alarmer/worklog.log
 
 """
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 from telethon import TelegramClient, events, errors
 from config import TELEGRAM_BOT_API_TOKEN, TELEGRAM_API_ID, TELEGRAM_API_HASH, PHONE_NUMBER, ALERT_GROUP_ID, MY_CHAT_ID
@@ -245,8 +245,10 @@ async def init_bot():
 
 async def heartbeat(bot, chat_id):
     while True:
-        now = datetime.now().strftime("%d-%m-%Y | %H:%M:%S")
-        msg = f"🟢 {now} — Бот на службе"
+        # Используем киевское время для heartbeat (UTC+3)
+        kyiv_tz = timezone(timedelta(hours=3))
+        now = datetime.now(kyiv_tz).strftime("%d-%m-%Y | %H:%M:%S")
+        msg = f"🟢 {now} — Бот на службе (Киевское время)"
         await bot.send_message(chat_id, msg)
         await asyncio.sleep(3600)  # раз в час
 
@@ -294,6 +296,10 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
     :param excluded_keywords: список исключаемых ключевых слов
     :return:
     """
+    
+    # Логируем время установки обработчика
+    setup_time = datetime.now(timezone(timedelta(hours=3)))
+    logger.info(f"[SETUP] 📡 Устанавливаем обработчик событий в: {setup_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
     if excluded_keywords is None:
         excluded_keywords = []
     if ballistika_keywords is None:
@@ -303,13 +309,21 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
 
     @client.on(events.NewMessage(chats=monitoring_group_id))
     async def handler(event):
+        # КРИТИЧЕСКИ ВАЖНО: логируем СРАЗУ при входе в обработчик
+        entry_time = datetime.now(timezone(timedelta(hours=3)))
+        logger.info(f"[HANDLER_ENTRY] 🚀 ВХОД В ОБРАБОТЧИК: {entry_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
+        
         # Детальное логирование времени для диагностики задержек
-        handler_start_time = datetime.now()
+        kyiv_tz = timezone(timedelta(hours=3))  # UTC+3 для Киева
+        handler_start_time = datetime.now(kyiv_tz)
         message = event.message
         
-        logger.info(f"[TIMING] ⏰ Обработчик запущен в: {handler_start_time.strftime('%H:%M:%S.%f')[:-3]}")
-        logger.info(f"[TIMING] 📅 Время сообщения в Telegram: {message.date}")
-        logger.info(f"[TIMING] ⏱️ Разница: {(handler_start_time - message.date.replace(tzinfo=None)).total_seconds():.2f} секунд")
+        # Конвертируем UTC время сообщения в киевское время
+        message_time_kyiv = message.date.replace(tzinfo=timezone.utc).astimezone(kyiv_tz)
+        
+        logger.info(f"[TIMING] ⏰ Обработчик запущен в: {handler_start_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
+        logger.info(f"[TIMING] 📅 Время сообщения в Telegram: {message.date} (UTC) = {message_time_kyiv.strftime('%Y-%m-%d %H:%M:%S')} (Киевское время)")
+        logger.info(f"[TIMING] ⏱️ Разница: {(handler_start_time - message_time_kyiv).total_seconds():.2f} секунд")
 
         # Пропускаем служебные сообщения (типа join/leave/etc)
         if not hasattr(message, 'message') and not message.grouped_id:
@@ -329,8 +343,8 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
                     return
 
                 # Поиск тревожного слова
-                keyword_check_time = datetime.now()
-                logger.info(f"[TIMING] 🔍 Начало проверки ключевых слов: {keyword_check_time.strftime('%H:%M:%S.%f')[:-3]}")
+                keyword_check_time = datetime.now(kyiv_tz)
+                logger.info(f"[TIMING] 🔍 Начало проверки ключевых слов: {keyword_check_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
                 
                 alert_triggered = False
                 
@@ -348,13 +362,13 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
                             return
 
                     logger.warning("🔴 ТРИВОГА!!! Отправляем сообщение из альбома!")
-                    alert_send_time = datetime.now()
-                    logger.info(f"[TIMING] 📤 Начало отправки алерта: {alert_send_time.strftime('%H:%M:%S.%f')[:-3]}")
+                    alert_send_time = datetime.now(kyiv_tz)
+                    logger.info(f"[TIMING] 📤 Начало отправки алерта: {alert_send_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
                     
                     await send_alert(bot, ALERT_GROUP_ID, text)
                     
-                    alert_sent_time = datetime.now()
-                    logger.info(f"[TIMING] ✅ Алерт отправлен: {alert_sent_time.strftime('%H:%M:%S.%f')[:-3]}")
+                    alert_sent_time = datetime.now(kyiv_tz)
+                    logger.info(f"[TIMING] ✅ Алерт отправлен: {alert_sent_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
                     logger.info(f"[TIMING] ⏱️ Время отправки алерта: {(alert_sent_time - alert_send_time).total_seconds():.3f} секунд")
                     logger.info("📨 Тревожное сообщение отправлено")
 
@@ -375,8 +389,8 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
                 return
 
             # Логирование времени для обычных сообщений
-            keyword_check_time = datetime.now()
-            logger.info(f"[TIMING] 🔍 Начало проверки ключевых слов (обычное сообщение): {keyword_check_time.strftime('%H:%M:%S.%f')[:-3]}")
+            keyword_check_time = datetime.now(kyiv_tz)
+            logger.info(f"[TIMING] 🔍 Начало проверки ключевых слов (обычное сообщение): {keyword_check_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время). Я пишу логи по Киевскому времени. А время в ТГ по UTC, поэтому выше показана корректная разница!")
             
             alert_triggered = False
             
@@ -394,13 +408,13 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
                         return
 
                 logger.warning("🔴 ТРИВОГА!!! Отправляем обычное сообщение!")
-                alert_send_time = datetime.now()
-                logger.info(f"[TIMING] 📤 Начало отправки алерта (обычное сообщение): {alert_send_time.strftime('%H:%M:%S.%f')[:-3]}")
+                alert_send_time = datetime.now(kyiv_tz)
+                logger.info(f"[TIMING] 📤 Начало отправки алерта (обычное сообщение): {alert_send_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
                 
                 await send_alert(bot, ALERT_GROUP_ID, text)
                 
-                alert_sent_time = datetime.now()
-                logger.info(f"[TIMING] ✅ Алерт отправлен (обычное сообщение): {alert_sent_time.strftime('%H:%M:%S.%f')[:-3]}")
+                alert_sent_time = datetime.now(kyiv_tz)
+                logger.info(f"[TIMING] ✅ Алерт отправлен (обычное сообщение): {alert_sent_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
                 logger.info(f"[TIMING] ⏱️ Время отправки алерта: {(alert_sent_time - alert_send_time).total_seconds():.3f} секунд")
                 logger.info("📨 Тревожное сообщение отправлено")
 
@@ -439,9 +453,16 @@ async def send_alert(bot, alert_group_id, alert_text):
 
 
 async def main():
+    start_time = datetime.now(timezone(timedelta(hours=3)))
+    logger.info(f"[MAIN] 🏁 Запуск основной функции: {start_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
+    
     client = await init_client()
+    client_ready_time = datetime.now(timezone(timedelta(hours=3)))
+    logger.info(f"[MAIN] 📱 Клиент готов: {client_ready_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
 
     bot = await init_bot()
+    bot_ready_time = datetime.now(timezone(timedelta(hours=3)))
+    logger.info(f"[MAIN] 🤖 Бот готов: {bot_ready_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
 
     # Тут создаем задачу для периодического пинга
     asyncio.create_task(heartbeat(bot, MY_CHAT_ID))
@@ -449,8 +470,11 @@ async def main():
     # await list_groups(client)  # Список всех доступных чатов
 
     # Запускаем слушателя
+    monitor_start_time = datetime.now(timezone(timedelta(hours=3)))
+    logger.info(f"[MAIN] 👂 Запуск мониторинга: {monitor_start_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
     await monitor_group(client, bot, KEYWORDS, MONITORING_CHANNELL_ID, EXCLUDED_KEYWORDS, BALLISTIKA_KEYWORDS)
 
+    logger.info(f"[MAIN] 🔄 Переход в режим ожидания событий...")
     await client.run_until_disconnected()
 
 
