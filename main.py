@@ -479,7 +479,7 @@ async def main():
 
 
 if __name__ == '__main__':
-    KEYWORDS = ["заводс", "центр"]
+    KEYWORDS = ["заводс", "централ"]
     EXCLUDED_KEYWORDS = ["кумпол", "нічого нема"]
     BALLISTIKA_KEYWORDS = ["Миколаїв", "балістика"]
 
