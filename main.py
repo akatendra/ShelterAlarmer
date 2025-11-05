@@ -164,6 +164,7 @@ tail -f /opt/zavodskij_alarmer/worklog.log
 
 """
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 
 from telethon import TelegramClient, events, errors
 from config import TELEGRAM_BOT_API_TOKEN, TELEGRAM_API_ID, TELEGRAM_API_HASH, PHONE_NUMBER, ALERT_GROUP_ID, MY_CHAT_ID
@@ -245,8 +246,8 @@ async def init_bot():
 
 async def heartbeat(bot, chat_id):
     while True:
-        # Используем киевское время для heartbeat (UTC+3)
-        kyiv_tz = timezone(timedelta(hours=3))
+        # Используем киевское время для heartbeat (автоматический учет летнего/зимнего времени)
+        kyiv_tz = ZoneInfo('Europe/Kyiv')
         now = datetime.now(kyiv_tz).strftime("%d-%m-%Y | %H:%M:%S")
         msg = f"🟢 {now} — Бот на службе (Киевское время)"
         await bot.send_message(chat_id, msg)
@@ -298,7 +299,7 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
     """
     
     # Логируем время установки обработчика
-    setup_time = datetime.now(timezone(timedelta(hours=3)))
+    setup_time = datetime.now(ZoneInfo('Europe/Kyiv'))
     logger.info(f"[SETUP] 📡 Устанавливаем обработчик событий в: {setup_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
     if excluded_keywords is None:
         excluded_keywords = []
@@ -310,11 +311,11 @@ async def monitor_group(client, bot, keywords, monitoring_group_id, excluded_key
     @client.on(events.NewMessage(chats=monitoring_group_id))
     async def handler(event):
         # КРИТИЧЕСКИ ВАЖНО: логируем СРАЗУ при входе в обработчик
-        entry_time = datetime.now(timezone(timedelta(hours=3)))
+        entry_time = datetime.now(ZoneInfo('Europe/Kyiv'))
         logger.info(f"[HANDLER_ENTRY] 🚀 ВХОД В ОБРАБОТЧИК: {entry_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
         
         # Детальное логирование времени для диагностики задержек
-        kyiv_tz = timezone(timedelta(hours=3))  # UTC+3 для Киева
+        kyiv_tz = ZoneInfo('Europe/Kyiv')  # Автоматический учет летнего/зимнего времени
         handler_start_time = datetime.now(kyiv_tz)
         message = event.message
         
@@ -453,15 +454,15 @@ async def send_alert(bot, alert_group_id, alert_text):
 
 
 async def main():
-    start_time = datetime.now(timezone(timedelta(hours=3)))
+    start_time = datetime.now(ZoneInfo('Europe/Kyiv'))
     logger.info(f"[MAIN] 🏁 Запуск основной функции: {start_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
     
     client = await init_client()
-    client_ready_time = datetime.now(timezone(timedelta(hours=3)))
+    client_ready_time = datetime.now(ZoneInfo('Europe/Kyiv'))
     logger.info(f"[MAIN] 📱 Клиент готов: {client_ready_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
 
     bot = await init_bot()
-    bot_ready_time = datetime.now(timezone(timedelta(hours=3)))
+    bot_ready_time = datetime.now(ZoneInfo('Europe/Kyiv'))
     logger.info(f"[MAIN] 🤖 Бот готов: {bot_ready_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
 
     # Тут создаем задачу для периодического пинга
@@ -470,7 +471,7 @@ async def main():
     # await list_groups(client)  # Список всех доступных чатов
 
     # Запускаем слушателя
-    monitor_start_time = datetime.now(timezone(timedelta(hours=3)))
+    monitor_start_time = datetime.now(ZoneInfo('Europe/Kyiv'))
     logger.info(f"[MAIN] 👂 Запуск мониторинга: {monitor_start_time.strftime('%H:%M:%S.%f')[:-3]} (Киевское время)")
     await monitor_group(client, bot, KEYWORDS, MONITORING_CHANNELL_ID, EXCLUDED_KEYWORDS, BALLISTIKA_KEYWORDS)
 
